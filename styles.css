@@ -1,0 +1,118 @@
+
+.header-left{
+    position: relative;
+}
+.header-right{
+    position: relative;
+}
+.imagenLyA{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+.imagen-quiniela{
+    position: absolute;
+    width: 270px;
+    height: 160px;
+    top: 0;
+    right: 0;
+}
+.header-center{
+    height: 40px;
+    margin-left: 220px;
+    margin-right: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: navy;
+    font-size: 2rem;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.espacio1{
+    margin-left: 60px;
+    display: inline-block;
+}
+.header-center2{
+    margin-right: 270px;
+    margin-top: 0px;
+    padding: 8px;
+    margin-left: 214px;
+    font-size: 0.85rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.header-center3{
+    
+    height: 35px;
+    margin-top: 0px;
+    padding: 8px;
+    margin-left: 220px;
+    margin-right: 270px;
+    font-size: 1.4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    align-items: center;
+    border: 2px solid navy;
+}
+
+.pequeña1{
+    
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 42px;
+    display: inline-block;
+}
+.pequeña2{
+    
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 42px;
+    display: inline-block;
+}
+.pronosticos{
+    
+    height: 35px;
+    margin-top: 3px;
+    padding: 8px;
+    margin-left: 300px;
+    margin-right: 200px;
+    font-size: 1.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    align-items: center;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    letter-spacing: 10px;
+}
+table{
+    position: absolute;
+    left: 15%;
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+.equipo{
+   display: flex;
+   justify-content: space-between;
+   color: navy;
+   border-bottom: 2px solid red;
+}
+th{
+    border: 1px solid red;
+   padding: 0.4px 6.5px;
+   font-weight: normal;
+   border-collapse: collapse;
+}
+.pr1{
+   border: 7px solid red;
+}
+.pr2{
+   border: 2px solid red;
+}
